@@ -3,7 +3,7 @@
 Test Case 1
 | Type | Source Storage Account  | Destination Storage Account | Size | # of Files | Copy Method | VM |
 |---|---|---|---|---|---|---|
-| ADLS Gen 2 Standard No Hierarchical namespace | Canada Central | East US 2 | 10 GiB | 1 | az copy | D8ads_v5 (8 CPU x 32 Gib Memory) Win 11 Canada Central |
+| ADLS Gen 2 Standard No Hierarchical namespace | Canada Central | East US 2 | 100 GiB | 1 | az copy | D8ads_v5 (8 CPU x 32 Gib Memory) Win 11 Canada Central |
 
 100 GiB file is created using fsutil file createnew c:\temp\a.bin 1048576000000
 
